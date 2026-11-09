@@ -424,6 +424,30 @@ nav ul li > a.active {
     box-sizing: border-box;
 }
 
+.kontak-box {
+    width: 100%;
+    max-width: 500px; /* Batasi lebar maksimal agar tidak terlalu melebar di layar besar */
+    margin: 0 auto 30px auto; /* auto kiri-kanan membuat elemen persis di tengah */
+}
+
+.social {
+    width: 100%;
+    max-width: 500px;
+    text-align: center; /* Membuat teks di dalam hubungi kami rata tengah */
+    margin: 0 auto;
+}
+
+.kontak-box h3, 
+.social h3 {
+    text-align: center;
+    margin-left: 0 !important; /* Menghapus inline style margin-left: 200px yang bikin geser ke kanan */
+}
+
+.social p {
+    text-align: center;
+    margin-left: 0 !important;
+}
+
 .form-group {
     margin-bottom: 15px;
 }
