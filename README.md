@@ -24,7 +24,7 @@ Dokumentasi ini disusun untuk memenuhi tugas mata kuliah Pemrograman Web dengan 
 4. Cheese Vaseline Squishy (vaseline.html) — Rp85.000
    Squishy bening berisi gel kenyal bersuhu dingin yang adem dan nyaman di genggaman.
 ## Informasi Tautan (Link Website)
-* Link Live Demo / Repositori GitHub: [Masukkan Link Website/GitHub Kamu di sini]
+* Link Live Demo / Repositori GitHub: https://tanessahillary-oss.github.io/poreaiezsquishystudio/
 ## Daftar Halaman Website
 * index.html : Halaman Beranda (Hero section, tagline, dan keunggulan utama).
 * beranda.html : Halaman Tentang Kami (Sejarah singkat, visi & misi, serta struktur organisasi).
