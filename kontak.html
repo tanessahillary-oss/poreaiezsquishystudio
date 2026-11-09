@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poreaiez Squishy Studio - Kontak</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">Poreaiez Squishy Studio</a>
+            <button class="hamburger" id="hamburger-menu" aria-label="Menu Navigasi">&#9776;</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li class="dropdown">
+                        <a href="beranda.html">Tentang Kami &#9662;</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="beranda.html#sejarah">Sejarah</a></li>
+                            <li><a href="beranda.html#visi-misi">Visi & Misi</a></li>
+                            <li><a href="beranda.html#struktur">Struktur Organisasi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="produk.html">Produk &#9662;</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="butter.html">Butter Squishy</a></li>
+                            <li><a href="vaseline.html">Vaseline Gel</a></li>
+                            <li><a href="crunchy.html">Crunchy ASMR</a></li>
+                            <li><a href="coconut.html">Coconut Oil</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="kontak.html" class="active">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section">
+        <div class="contact-wrapper">
+            <section class="kontak-box">
+                <div class="contact-form">
+                    <h3 style="margin-left: 200px;">Kirim Pesan atau Pertanyaan</h3>
+                    <form action="#" method="post" onclick="event.preventDefault();">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap :</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat Email :</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email kamu" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan / Varian Squishy yang Dicari :</label>
+                            <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan atau pertanyaan kamu..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="pesan">Kirim Pesan</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <section class="social">
+            <h3 style="margin-left:200px">Hubungi Kami</h3>
+            <p style="margin-top: 10px;">WhatsApp : +62 822-5207-7783&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email :  poreaiez@gmail.com</p>
+            <p>Instagram : @poreaiezstudio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TikTok : @poreaiezstudio</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Poreaiez Squishy Studio. Semua Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
