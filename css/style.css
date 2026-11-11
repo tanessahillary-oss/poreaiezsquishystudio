@@ -15,14 +15,6 @@ body {
     background-color: #fcf8f9;
 }
 
-.container {
-    margin-top: 50px;
-    padding: 10px 0px; 
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 header {
     background-color: #7b88d1;
     color: #fff;
@@ -417,7 +409,7 @@ nav ul li > a.active {
 .contact-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;  /* Mengatur seluruh isi form & hubungi kami ke tengah secara horizontal */
+    align-items: center;
     justify-content: center;
     width: 100%;
     padding: 20px;
@@ -426,21 +418,21 @@ nav ul li > a.active {
 
 .kontak-box {
     width: 100%;
-    max-width: 500px; /* Batasi lebar maksimal agar tidak terlalu melebar di layar besar */
-    margin: 0 auto 30px auto; /* auto kiri-kanan membuat elemen persis di tengah */
+    max-width: 500px;
+    margin: 0 auto 30px auto;
 }
 
 .social {
     width: 100%;
     max-width: 500px;
-    text-align: center; /* Membuat teks di dalam hubungi kami rata tengah */
+    text-align: center;
     margin: 0 auto;
 }
 
 .kontak-box h3, 
 .social h3 {
     text-align: center;
-    margin-left: 0 !important; /* Menghapus inline style margin-left: 200px yang bikin geser ke kanan */
+    margin-left: 0 !important;
 }
 
 .social p {
@@ -463,14 +455,6 @@ nav ul li > a.active {
     padding: 10px;
     border: 1px solid #5c6bc0;
     border-radius: 4px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
